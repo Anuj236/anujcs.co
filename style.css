@@ -1,0 +1,85 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+.logo{
+  width: 10%;
+  height: 80px;
+  background-color: pink;
+  display: inline-block;
+  margin-left: 80px;
+  vertical-align: top;
+  font-size: 40px;
+  font-family: segoe ui;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+}
+
+.nav{
+  width: 50%;
+  height: 80px;
+  display: inline-block;
+  margin-left: 35%;
+}
+
+.navigation>li{
+  list-style-type: none;
+  display: inline-block;
+  height: 80px;
+  width: 24.85%;
+  font-size: 40px;
+  text-align: center;
+  font-family: segoe ui;
+  line-height: 80px;
+  transition:.3s;
+  cursor: pointer;
+  vertical-align: top;
+
+}
+
+.navigation>li:hover{
+  background-color: slateblue;
+}
+
+.dropdown>li{
+  list-style-type: none;
+  display: inline-block;
+  height: 80px;
+  width: 100%;
+  font-size: 40px;
+  background-color: skyblue;
+  text-align: center;
+  font-family: segoe ui;
+  line-height: 80px;
+  transition:.3s;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown>li:hover{
+    background-color: blueviolet;
+}
+
+.dropdown{
+ height: 0px;
+ overflow: hidden;
+ transition:.5s;
+}
+
+.shop:hover>.dropdown{
+    height: 240px;
+    
+}
+
+.item:hover>.dropdown{
+   height: 240px;
+
+}
